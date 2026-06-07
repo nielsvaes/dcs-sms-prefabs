@@ -27,6 +27,12 @@ array part.
 """
 
 import io
+import math
+
+# Hard cap on table-constructor nesting. Mirrors prefab_safe_load.lua: rejects
+# hostile deeply-nested input with a clean error well before Python's own
+# recursion limit. No real prefab nests anywhere near this deep.
+MAX_DEPTH = 200
 
 
 class PrefabError(Exception):
@@ -170,6 +176,11 @@ def _lex(src):
             value = num
             if negate:
                 value = -value
+            # Reject non-finite results. '/' never lexes (so NaN/inf written as
+            # 0/0, 1/0 can't appear), but a huge literal like 1e999 overflows to
+            # inf via float() — shared prefabs must not carry inf/NaN.
+            if not math.isfinite(value):
+                raise PrefabError("non-finite number not allowed", i + 1)
             tokens.append(("number", value, i + 1))
             i = end
         elif _is_name_start(c):
@@ -270,6 +281,7 @@ def _normalize_number(v):
 
 def _parse(tokens):
     p = [0]
+    depth = [0]
 
     def peek():
         return tokens[p[0]]
@@ -321,6 +333,9 @@ def _parse(tokens):
 
     def parse_table():
         expect("punct", "{")
+        depth[0] += 1
+        if depth[0] > MAX_DEPTH:
+            raise PrefabError("table nesting too deep (>%d)" % MAX_DEPTH, peek()[2])
         tbl = {}
         array_idx = 0
         while True:
@@ -373,6 +388,7 @@ def _parse(tokens):
                 pass  # loop handles close
             else:
                 raise PrefabError('expected "," ";" or "}" in table', sep[2])
+        depth[0] -= 1
         return tbl
 
     expect("return")
