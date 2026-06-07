@@ -1,7 +1,30 @@
 {
   "schema": 1,
-  "generated": "2026-06-07T20:32:30Z",
+  "generated": "2026-06-07T20:33:24Z",
   "prefabs": [
+    {
+      "name": "2 x ZSU 01",
+      "author": "coconutcockpit",
+      "date": "2026-06-07",
+      "theatre": "Syria",
+      "description": "Two ZU-23 anti-aircraft gun emplacements with support vehicles and sandbag fortifications in Syria; suitable for air defense or point-defense scenarios against rotary-wing or low-level fixed-wing threats.",
+      "tags": [
+        "adzz",
+        "pointdefense",
+        "syria",
+        "redfor",
+        "fortified"
+      ],
+      "likes": 0,
+      "groups": 1,
+      "statics": 13,
+      "zones": 0,
+      "drawings": 0,
+      "airbases": 0,
+      "place_at_origin": false,
+      "sha256": "554728c585a33885ae93b7964b2a35846e90c50268bfc7ec762bae0444ae0d3e",
+      "path": "prefabs/2-x-zsu-01-2.prefab"
+    },
     {
       "name": "2 x ZSU 01",
       "author": "Niels",
