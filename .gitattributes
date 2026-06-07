@@ -1,0 +1,12 @@
+# Prefab data files are served byte-for-byte by raw.githubusercontent.com to
+# the in-DCS client, which SHA-256-verifies them against index.json. ANY EOL
+# conversion would change the bytes and break verification — keep them verbatim.
+*.prefab -text
+
+# Everything else: normalise line endings to LF.
+*.py        text eol=lf
+*.md        text eol=lf
+*.yml       text eol=lf
+*.json      text eol=lf
+.gitignore  text eol=lf
+.gitattributes text eol=lf

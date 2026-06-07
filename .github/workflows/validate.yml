@@ -1,0 +1,23 @@
+name: validate
+
+# Security + integrity gate. Runs on every PR (and on main) to prove that every
+# prefab is PURE DATA — no code can ever reach the catalog — and that each one
+# carries a valid metadata sidecar. The in-DCS client enforces the same
+# parse-don't-execute grammar before it will import a prefab; this catches a bad
+# file at the door instead of on a user's machine.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Validate prefabs are pure data + have sidecars
+        run: python tools/gen_index.py --validate

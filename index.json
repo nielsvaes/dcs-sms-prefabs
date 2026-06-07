@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "generated": "2026-06-07T15:53:24Z",
+  "prefabs": [
+    {
+      "name": "2 x ZSU 01",
+      "author": "Niels",
+      "date": "2026-06-07",
+      "theatre": "Syria",
+      "description": "Two ZU-23 'Insurgent' AAA guns dug in with Ural-375 and ZIL-135 support trucks, ringed by M92 cargo, oil barrels, jerrycans and sandbag emplacements. Drops as a ready-made insurgent air-defense strongpoint.",
+      "tags": [
+        "aaa",
+        "air-defense",
+        "redfor",
+        "insurgent"
+      ],
+      "likes": 0,
+      "groups": 1,
+      "statics": 10,
+      "zones": 0,
+      "drawings": 0,
+      "airbases": 0,
+      "place_at_origin": false,
+      "sha256": "e20eddaedde510b48127946fceaf80116f1fa2d077f1376716cdeb5496003f2a",
+      "path": "prefabs/2-x-zsu-01.prefab"
+    },
+    {
+      "name": "2 x ZSU 02",
+      "author": "Niels",
+      "date": "2026-06-07",
+      "theatre": "Syria",
+      "description": "Variant insurgent AAA position: two ZU-23 'Insurgent' guns with a Ural-375, fortified by a denser ring of M92 sandbags, cargo and oil barrels. A heavier-dug-in companion to '2 x ZSU 01'.",
+      "tags": [
+        "aaa",
+        "air-defense",
+        "redfor",
+        "insurgent"
+      ],
+      "likes": 0,
+      "groups": 1,
+      "statics": 13,
+      "zones": 0,
+      "drawings": 0,
+      "airbases": 0,
+      "place_at_origin": false,
+      "sha256": "426e07c79c683853f18271c9791bc2724cd2fda899b4e86eb5ac26fac2efb43a",
+      "path": "prefabs/2-x-zsu-02.prefab"
+    }
+  ]
+}
