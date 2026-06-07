@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-07T20:38:37Z",
+  "generated": "2026-06-07T21:16:19Z",
   "prefabs": [
     {
       "name": "2 x ZSU 01",
@@ -24,6 +24,23 @@
       "place_at_origin": false,
       "sha256": "554728c585a33885ae93b7964b2a35846e90c50268bfc7ec762bae0444ae0d3e",
       "path": "prefabs/2-x-zsu-01-2.prefab"
+    },
+    {
+      "name": "Creekside FOB",
+      "author": "nihprodne",
+      "date": "2026-05-26",
+      "theatre": "Caucasus",
+      "description": "SImple Template I use to paste and fill out/rearrange",
+      "tags": [],
+      "likes": 0,
+      "groups": 2,
+      "statics": 66,
+      "zones": 0,
+      "drawings": 0,
+      "airbases": 0,
+      "place_at_origin": false,
+      "sha256": "1e21145f5fcf5b826b9f4f27d13cb4f475819e7a025c49ae629a8d679904b94e",
+      "path": "prefabs/creekside-fob.prefab"
     },
     {
       "name": "Enemy Artillery Base",
@@ -115,6 +132,52 @@
       "place_at_origin": true,
       "sha256": "ec16d1dbe87516c6a7909e24f9517a5f15c8e114ccefa37a638b2632d47f1928",
       "path": "prefabs/ewr-site-4.prefab"
+    },
+    {
+      "name": "FARP Copperhead",
+      "author": "nihprodne",
+      "date": "2026-05-12",
+      "theatre": "Syria",
+      "description": "A fortified forward airfield in Syria with FARP pad, fuel depot, ammunition and cargo storage, defended by HESCO barriers, sandbags, and revetments with support buildings and vehicles. Suitable for helicopter operations or as a strike package staging area.",
+      "tags": [
+        "farp",
+        "helicopter",
+        "logistics",
+        "syria",
+        "forward-base"
+      ],
+      "likes": 0,
+      "groups": 0,
+      "statics": 398,
+      "zones": 1,
+      "drawings": 0,
+      "airbases": 0,
+      "place_at_origin": false,
+      "sha256": "a8f97abea7d2c0241294cfd98b76609f706364f89975c6501718c006049e5772",
+      "path": "prefabs/farp-copperhead.prefab"
+    },
+    {
+      "name": "FOB Black Lantern",
+      "author": "nihprodne",
+      "date": "2026-05-11",
+      "theatre": "Syria",
+      "description": "A forward operating base in Syria with command center, HESCO fortifications, watchtowers, vehicle shelters, and supply containers; suitable for ground combat scenarios or as a defensive position to be attacked or defended.",
+      "tags": [
+        "fob",
+        "syria",
+        "ground",
+        "fortified",
+        "defensive"
+      ],
+      "likes": 0,
+      "groups": 0,
+      "statics": 149,
+      "zones": 0,
+      "drawings": 0,
+      "airbases": 0,
+      "place_at_origin": false,
+      "sha256": "51bab072649d8fdba784121b9e277e61d06d504246784a770928e90e4238d73d",
+      "path": "prefabs/fob-black-lantern.prefab"
     }
   ]
 }
