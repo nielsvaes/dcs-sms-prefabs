@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-08T12:10:28Z",
+  "generated": "2026-06-08T12:18:32Z",
   "prefabs": [
     {
       "name": "2 x ZSU 01",
@@ -178,6 +178,23 @@
       "place_at_origin": false,
       "sha256": "51bab072649d8fdba784121b9e277e61d06d504246784a770928e90e4238d73d",
       "path": "prefabs/fob-black-lantern.prefab"
+    },
+    {
+      "name": "testing tester!",
+      "author": "coconutcockpit",
+      "date": "2026-06-07",
+      "theatre": "Syria",
+      "description": "Syrian air defense position with a Rapier FSA system (optical tracker, launcher, and blindfire radar) accompanied by a Land Rover and ammunition pallet for testing or integration into larger SAM defense layouts.",
+      "tags": [],
+      "likes": 0,
+      "groups": 1,
+      "statics": 3,
+      "zones": 0,
+      "drawings": 0,
+      "airbases": 0,
+      "place_at_origin": false,
+      "sha256": "5d9f0fa0d896433b60ccf4c95a46f005e6c6be747ba894352dfbe95726c0751c",
+      "path": "prefabs/testing-tester.prefab"
     }
   ]
 }
