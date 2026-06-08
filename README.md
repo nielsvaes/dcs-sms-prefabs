@@ -44,32 +44,9 @@ browse, click, done.
 
 Here's the fun part: **this catalog is filled by you.**
 
-We don't want you opening pull requests or wrestling with Git. We've got a much
-nicer way. Built something cool in the Mission Editor — a nasty SAM trap, a
-detailed FARP, a coastline bristling with air defense? **Post it in the
-[Coconut Cockpit Discord](https://discord.gg/mFFXYmet)** and our friendly bot
+**Post it in the [Coconut Cockpit Discord](https://discord.gg/mFFXYmet)** and our friendly bot
 picks it up, checks it over, and adds it to this catalog for everyone to enjoy.
 
-No gatekeeping, no hoops. Just share the stuff you're proud of.
-
-<div align="center">
-
-### 👉 [**Join the Coconut Cockpit Discord →**](https://discord.gg/mFFXYmet) 👈
-
-Drop your prefabs, swap ideas, show off your missions, and meet other
-DCS folks who like building cool things.
-
-[![Join the Coconut Cockpit Discord](https://img.shields.io/badge/Discord-discord.gg%2FmFFXYmet-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/mFFXYmet)
-
-</div>
-
-## What's already in here?
-
-A growing collection of community submissions — air defense emplacements,
-early-warning radar sites, fortified bases, and more, across multiple theatres.
-Browse them all in [`prefabs/`](prefabs/), or just open the **Community** tab in
-the mod and see them with descriptions and previews. And yes — **your** prefab
-could be the next one on the list. 😉
 
 ---
 
