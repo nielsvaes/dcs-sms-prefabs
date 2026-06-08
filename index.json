@@ -1,25 +1,5 @@
 {
   "schema": 1,
-  "generated": "2026-06-08T18:54:14Z",
-  "prefabs": [
-    {
-      "name": "2 x ZSU",
-      "author": "coconutcockpit",
-      "date": "2026-06-07",
-      "theatre": "Syria",
-      "description": "A small air defense site with 2 ZSU guns, sandbags and a supply truck.",
-      "tags": [
-        "aaa"
-      ],
-      "likes": 0,
-      "groups": 1,
-      "statics": 13,
-      "zones": 0,
-      "drawings": 0,
-      "airbases": 0,
-      "place_at_origin": false,
-      "sha256": "3f5c966ad93afe59ec1d0082017d650ef56bc9169e28b872b7c3aaa6a157501a",
-      "path": "prefabs/2-x-zsu.prefab"
-    }
-  ]
+  "generated": "2026-06-08T20:05:49Z",
+  "prefabs": []
 }
