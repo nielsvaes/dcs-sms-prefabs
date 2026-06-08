@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-08T12:37:59Z",
+  "generated": "2026-06-08T12:38:39Z",
   "prefabs": [
     {
       "name": "2 x ZSU 01",
@@ -178,6 +178,23 @@
       "place_at_origin": false,
       "sha256": "51bab072649d8fdba784121b9e277e61d06d504246784a770928e90e4238d73d",
       "path": "prefabs/fob-black-lantern.prefab"
+    },
+    {
+      "name": "testing tester!",
+      "author": "coconutcockpit",
+      "date": "2026-06-07",
+      "theatre": "Syria",
+      "description": "Syria-based Rapier air defense site with optical tracker, radar, and launcher units positioned with support vehicles and static equipment; suitable for testing AAA engagements or populating air defense networks.",
+      "tags": [],
+      "likes": 0,
+      "groups": 1,
+      "statics": 3,
+      "zones": 0,
+      "drawings": 0,
+      "airbases": 0,
+      "place_at_origin": false,
+      "sha256": "3f847d040c73782481616120c7f7ebb2d5adb4a10eebf04eee597f0f0ed0716c",
+      "path": "prefabs/testing-tester.prefab"
     }
   ]
 }
