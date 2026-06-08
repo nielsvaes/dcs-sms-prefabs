@@ -35,7 +35,7 @@ It's the LEGO bin for your missions, stocked by the community.
 
 ## Getting prefabs into your missions
 
-If you have the **dcs-sms** Mission Editor mod installed, open its **Community**
+If you have the **dcs-sms** Mission Editor mod installed, open the Prefab Manager's **Community**
 tab. It reads straight from this repo, shows you everything in the catalog, and
 imports any prefab into your library with one click. That's the whole flow —
 browse, click, done.
