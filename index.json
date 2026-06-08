@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-07T21:16:19Z",
+  "generated": "2026-06-08T12:01:36Z",
   "prefabs": [
     {
       "name": "2 x ZSU 01",
@@ -178,6 +178,23 @@
       "place_at_origin": false,
       "sha256": "51bab072649d8fdba784121b9e277e61d06d504246784a770928e90e4238d73d",
       "path": "prefabs/fob-black-lantern.prefab"
+    },
+    {
+      "name": "Rapier site",
+      "author": "coconutcockpit",
+      "date": "2026-06-07",
+      "theatre": "Syria",
+      "description": "A Rapier air defense site with optical tracker, launcher, and blindfire radar units positioned in Syria; includes support vehicles and ammunition for short-range air defense against fixed-wing and rotary-wing threats.",
+      "tags": [],
+      "likes": 0,
+      "groups": 1,
+      "statics": 3,
+      "zones": 0,
+      "drawings": 0,
+      "airbases": 0,
+      "place_at_origin": false,
+      "sha256": "0ea09b1c5d63e1a628e4ae347ed2e8506af1dca362337205fe61e62e05632307",
+      "path": "prefabs/rapier-site.prefab"
     }
   ]
 }
