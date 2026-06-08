@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-08T14:21:24Z",
+  "generated": "2026-06-08T18:54:14Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -9,7 +9,6 @@
       "theatre": "Syria",
       "description": "A small air defense site with 2 ZSU guns, sandbags and a supply truck.",
       "tags": [
-        "revetments",
         "aaa"
       ],
       "likes": 0,
