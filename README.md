@@ -1,18 +1,88 @@
-# dcs-sms-prefabs
+<div align="center">
 
-The community **prefab catalog** for [dcs-sms](https://github.com/nielsvaes/dcs-sms).
+# 🥥 DCS-SMS Prefabs
 
-A prefab is a saved chunk of a DCS mission — groups, statics, trigger zones,
-map drawings — that you can drop into any mission as a ready-made building
-block (a SAM site, a carrier group, an airbase defense layout…). The dcs-sms
-Mission Editor mod has a **Community** tab that browses this repo over HTTPS and
-imports prefabs into your library with one click.
+### The community stash of ready-made DCS building blocks.
 
-This repo is the source that tab fetches from. The mod reads
-[`index.json`](index.json) (a generated manifest) and downloads individual
-`.prefab` files from [`prefabs/`](prefabs/).
+SAM sites. EWR rings. Carrier groups. Fortified artillery bases. Whole airbase
+defense layouts. All built by the community, all a click away.
 
-## How it stays safe
+<br>
+
+[![Join the Coconut Cockpit Discord](https://img.shields.io/badge/Discord-Join%20the%20Coconut%20Cockpit-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/mFFXYmet)
+
+[![Discord members](https://img.shields.io/discord/1501529032817115266?logo=discord&logoColor=white&label=members&color=5865F2)](https://discord.gg/mFFXYmet)
+&nbsp;
+[![Prefabs in catalog](https://img.shields.io/github/directory-file-count/nielsvaes/dcs-sms-prefabs/prefabs?type=file&extension=prefab&label=prefabs%20in%20catalog&logo=github)](prefabs/)
+
+</div>
+
+---
+
+## What is this?
+
+This is the **community prefab catalog** for
+[dcs-sms](https://github.com/nielsvaes/dcs-sms) — a pile of prefabs that DCS
+players have built and shared with everyone else.
+
+A **prefab** is a saved chunk of a DCS mission — groups, statics, trigger zones,
+map drawings — bundled up as a ready-made building block you can drop into *any*
+mission. Instead of placing forty units by hand every time you want a Syrian
+artillery position or an early-warning radar site, you grab one someone already
+made and drop it in.
+
+It's the LEGO bin for your missions, stocked by the community.
+
+## Getting prefabs into your missions
+
+If you have the **dcs-sms** Mission Editor mod installed, open its **Community**
+tab. It reads straight from this repo, shows you everything in the catalog, and
+imports any prefab into your library with one click. That's the whole flow —
+browse, click, done.
+
+## 💛 Share your own — come hang out in the Discord!
+
+Here's the fun part: **this catalog is filled by you.**
+
+We don't want you opening pull requests or wrestling with Git. We've got a much
+nicer way. Built something cool in the Mission Editor — a nasty SAM trap, a
+detailed FARP, a coastline bristling with air defense? **Post it in the
+[Coconut Cockpit Discord](https://discord.gg/mFFXYmet)** and our friendly bot
+picks it up, checks it over, and adds it to this catalog for everyone to enjoy.
+
+No gatekeeping, no hoops. Just share the stuff you're proud of.
+
+<div align="center">
+
+### 👉 [**Join the Coconut Cockpit Discord →**](https://discord.gg/mFFXYmet) 👈
+
+Drop your prefabs, swap ideas, show off your missions, and meet other
+DCS folks who like building cool things.
+
+[![Join the Coconut Cockpit Discord](https://img.shields.io/badge/Discord-discord.gg%2FmFFXYmet-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/mFFXYmet)
+
+</div>
+
+## What's already in here?
+
+A growing collection of community submissions — air defense emplacements,
+early-warning radar sites, fortified bases, and more, across multiple theatres.
+Browse them all in [`prefabs/`](prefabs/), or just open the **Community** tab in
+the mod and see them with descriptions and previews. And yes — **your** prefab
+could be the next one on the list. 😉
+
+---
+
+<details>
+<summary><b>🔧 Under the hood</b> — how the catalog works (for the curious & for maintainers)</summary>
+
+<br>
+
+The friendly stuff above is all most people need. Everything below is the
+nuts-and-bolts of how the catalog is structured and kept safe. The Discord bot
+handles all of this automatically when you submit — you don't have to.
+
+### How it stays safe
 
 Prefabs are **data, never code**. A `.prefab` is a Lua chunk that does nothing
 but `return { … }` — a table of literals and nested tables. Both this repo's CI
@@ -26,7 +96,7 @@ Every entry in `index.json` also carries the **SHA-256** of the exact prefab
 bytes. The client re-hashes each download and refuses any mismatch, so a file
 can't be swapped or corrupted in transit.
 
-## Layout
+### Layout
 
 ```
 dcs-sms-prefabs/
@@ -42,7 +112,10 @@ dcs-sms-prefabs/
    └─ build-index.yml         # on merge to main: regenerate + commit index.json
 ```
 
-## Contributing a prefab
+### Contributing a prefab by hand
+
+Most people should just post in the [Discord](https://discord.gg/mFFXYmet) and
+let the bot do this. But if you'd rather do it yourself:
 
 1. Save a prefab in DCS with the dcs-sms ME mod (it writes a `.prefab` file into
    your library). Copy it into `prefabs/`. Use a lowercase, dash-separated
@@ -82,7 +155,7 @@ These are *derived* from the prefab and must **not** be put in the sidecar:
 `theatre`, entity counts (`groups`/`statics`/`zones`/`drawings`/`airbases`),
 `place_at_origin`, `sha256`, `path`.
 
-## Regenerating the manifest
+### Regenerating the manifest
 
 ```sh
 python tools/gen_index.py            # rewrite index.json from prefabs/ + sidecars
@@ -92,7 +165,7 @@ python tools/gen_index.py --check    # exit 1 if index.json is stale
 
 (Use `python`, not `python3`. The tools are pure-stdlib — no dependencies.)
 
-## Manifest schema (`index.json`, `schema: 1`)
+### Manifest schema (`index.json`, `schema: 1`)
 
 ```jsonc
 {
@@ -120,3 +193,5 @@ python tools/gen_index.py --check    # exit 1 if index.json is stale
 The client requires `schema == 1`, ignores unknown fields, and skips any entry
 missing `name`, `path`, or `sha256`. `path` is resolved against the repo's
 `raw.githubusercontent.com` base.
+
+</details>
