@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-09T07:57:42Z",
+  "generated": "2026-06-09T10:56:09Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -20,6 +20,25 @@
       "place_at_origin": false,
       "sha256": "ad58478fe4e5cd20d5a2b5df05a5f4b432b4d47d52f60968127efdda776ffdf7",
       "path": "prefabs/2-x-zsu.prefab"
+    },
+    {
+      "name": "Andersen AFB",
+      "author": "coconutcockpit",
+      "date": "2026-06-05",
+      "theatre": "MarianaIslands",
+      "description": "Andersen Air Force Base airfield complex in Guam with 12 aircraft groups including B-52H, B-1B, F-15E, F-16C, and A-10C, plus ground support elements, cargo containers, fuel depots, and air defense systems (Patriot, Vulcan, Avenger) suitable for large-scale strike operations or multiplayer campaign scenarios.",
+      "tags": [
+        "sam-site"
+      ],
+      "likes": 0,
+      "groups": 12,
+      "statics": 163,
+      "zones": 0,
+      "drawings": 0,
+      "airbases": 0,
+      "place_at_origin": true,
+      "sha256": "de86c07c76739dbeab36e0a641bedc3424254c34ae0f4fa87db0a7baf4d178e3",
+      "path": "prefabs/andersen-afb.prefab"
     },
     {
       "name": "Enemy Artillery Base",
@@ -124,6 +143,25 @@
       "place_at_origin": true,
       "sha256": "fa83449ebbc55cf210c93b00ef7b16966a4136782c450dd3b7109cc02dc0622f",
       "path": "prefabs/ewr-site-4.prefab"
+    },
+    {
+      "name": "Rapier site",
+      "author": "coconutcockpit",
+      "date": "2026-06-07",
+      "theatre": "Syria",
+      "description": "Complete Rapier air defense site with optical tracker, blindfire radar, and two launcher units positioned for deployment in Syria; includes ammunition pallet and support vehicles for establishing a functional SAM site.",
+      "tags": [
+        "sam-site"
+      ],
+      "likes": 0,
+      "groups": 1,
+      "statics": 3,
+      "zones": 0,
+      "drawings": 0,
+      "airbases": 0,
+      "place_at_origin": false,
+      "sha256": "737bde93c797fc1e5114c97d992f289872d3ef7f1d5b125426e8a6135037d057",
+      "path": "prefabs/rapier-site.prefab"
     }
   ]
 }
