@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-09T10:56:09Z",
+  "generated": "2026-06-09T10:56:46Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -162,6 +162,25 @@
       "place_at_origin": false,
       "sha256": "737bde93c797fc1e5114c97d992f289872d3ef7f1d5b125426e8a6135037d057",
       "path": "prefabs/rapier-site.prefab"
+    },
+    {
+      "name": "snow-city",
+      "author": "coconutcockpit",
+      "date": "2026-05-05",
+      "theatre": "Syria",
+      "description": "Snow-covered Syrian city with 36 unit groups and extensive static infrastructure (60 objects) including a US carrier task group, airfield support assets, and cargo/transport vehicles; suitable for CAS, transport, or multi-faction coordination training scenarios.",
+      "tags": [
+        "sam-site"
+      ],
+      "likes": 0,
+      "groups": 36,
+      "statics": 60,
+      "zones": 3,
+      "drawings": 9,
+      "airbases": 0,
+      "place_at_origin": true,
+      "sha256": "d254e8cd201b099a1da46d06b03b97936ae1cd7ab153c94aeedb41cf926acad1",
+      "path": "prefabs/snow-city.prefab"
     }
   ]
 }
