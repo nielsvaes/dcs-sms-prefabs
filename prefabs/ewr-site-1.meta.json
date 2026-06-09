@@ -1,0 +1,11 @@
+{
+  "author": "Bug Smasher Pilot (hgoc)",
+  "description": "One of four EWR Sites I created, fortified by short range SAMs. Meant to be placed in fixed position on the Syria map, but should be compatible anywhere.",
+  "tags": [
+    "ground-units",
+    "spawn-in-fixed-pos",
+    "fob"
+  ],
+  "thread_id": 1514015879883526214,
+  "source_filename": "EWR_Site_1.prefab"
+}
