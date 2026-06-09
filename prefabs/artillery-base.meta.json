@@ -1,0 +1,11 @@
+{
+  "author": "Bug Smasher Pilot (hgoc)",
+  "description": "Artillery base/outpost. Fortified by short range SAMs. You can spawn it in a fixed position on the Syria map, but it should also work in any location.",
+  "tags": [
+    "ground-units",
+    "spawn-in-fixed-pos",
+    "fob"
+  ],
+  "thread_id": 1514015366504910928,
+  "source_filename": "Artillery_Base.prefab"
+}
