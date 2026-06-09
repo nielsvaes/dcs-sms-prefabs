@@ -1,0 +1,11 @@
+{
+  "author": "Bug Smasher Pilot (hgoc)",
+  "description": "A FARP with dynamic spawn slots as well as Apache and Kiowa Slots. You can spawn it in fixed position on the Syria map.",
+  "tags": [
+    "helicopter",
+    "spawn-in-fixed-pos",
+    "farp"
+  ],
+  "thread_id": 1514016332692193481,
+  "source_filename": "South_FARP.prefab"
+}
