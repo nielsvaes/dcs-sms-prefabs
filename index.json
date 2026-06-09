@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-08T20:06:28Z",
+  "generated": "2026-06-09T07:43:14Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -20,6 +20,47 @@
       "place_at_origin": false,
       "sha256": "ad58478fe4e5cd20d5a2b5df05a5f4b432b4d47d52f60968127efdda776ffdf7",
       "path": "prefabs/2-x-zsu.prefab"
+    },
+    {
+      "name": "Enemy Artillery Base",
+      "author": "Bug Smasher Pilot (hgoc)",
+      "date": "2026-06-07",
+      "theatre": "Syria",
+      "description": "A fortified Syrian artillery base with 46 groups including Msta self-propelled guns, Grad rocket systems, air defense (Tor, Ka-50), armor (T-72B variants, BTR-82A), and support infrastructure such as FARP, ammunition storage, revetments, and defensive positions for use in strike or CAS training missions.",
+      "tags": [
+        "farp",
+        "fob"
+      ],
+      "likes": 0,
+      "groups": 46,
+      "statics": 352,
+      "zones": 0,
+      "drawings": 2,
+      "airbases": 0,
+      "place_at_origin": true,
+      "sha256": "36c7ffe6927d43159e74b415bb37ea79e51b21e0d7d54efb4cd160b4a27cacf4",
+      "path": "prefabs/enemy-artillery-base.prefab"
+    },
+    {
+      "name": "EWR Site 1",
+      "author": "Bug Smasher Pilot (hgoc)",
+      "date": "2026-06-07",
+      "theatre": "Syria",
+      "description": "4 variations of Red EWR Sites fortified with close-range SAMs. I love using these as ground targets because they break up the monotony of simply taking out vehicles and SAMs. Meant to be placed on the Syria map, but work well as templates for any map.",
+      "tags": [
+        "ground-units",
+        "spawn-in-fixed-pos",
+        "fob"
+      ],
+      "likes": 0,
+      "groups": 14,
+      "statics": 57,
+      "zones": 0,
+      "drawings": 2,
+      "airbases": 0,
+      "place_at_origin": true,
+      "sha256": "8314cd51725f16ea49b3fccde76744a6d788548c70c33d3771b3b67fb366842e",
+      "path": "prefabs/ewr-site-1.prefab"
     }
   ]
 }
