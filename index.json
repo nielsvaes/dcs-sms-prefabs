@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-09T21:15:35Z",
+  "generated": "2026-06-09T21:17:08Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -22,24 +22,25 @@
       "path": "prefabs/2-x-zsu.prefab"
     },
     {
-      "name": "Enemy Artillery Base",
+      "name": "Artillery Base",
       "author": "Bug Smasher Pilot (hgoc)",
-      "date": "2026-06-07",
+      "date": "2026-06-09",
       "theatre": "Syria",
-      "description": "A fortified Syrian artillery base with 46 groups including Msta self-propelled guns, Grad rocket systems, air defense (Tor, Ka-50), armor (T-72B variants, BTR-82A), and support infrastructure such as FARP, ammunition storage, revetments, and defensive positions for use in strike or CAS training missions.",
+      "description": "Artillery base/outpost. Fortified by short range SAMs. You can spawn it in a fixed position on the Syria map, but it should also work in any location.",
       "tags": [
-        "farp",
+        "ground-units",
+        "spawn-in-fixed-pos",
         "fob"
       ],
       "likes": 0,
-      "groups": 46,
-      "statics": 352,
+      "groups": 51,
+      "statics": 419,
       "zones": 0,
       "drawings": 2,
       "airbases": 0,
       "place_at_origin": true,
-      "sha256": "36c7ffe6927d43159e74b415bb37ea79e51b21e0d7d54efb4cd160b4a27cacf4",
-      "path": "prefabs/enemy-artillery-base.prefab"
+      "sha256": "8e7926268e6b7645f1f16f362e09e0603ea0a18459c3d979eb8d22e6284ee016",
+      "path": "prefabs/artillery-base.prefab"
     },
     {
       "name": "EWR Site 2",
