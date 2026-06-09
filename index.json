@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-09T10:58:24Z",
+  "generated": "2026-06-09T21:12:50Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -40,6 +40,26 @@
       "place_at_origin": true,
       "sha256": "36c7ffe6927d43159e74b415bb37ea79e51b21e0d7d54efb4cd160b4a27cacf4",
       "path": "prefabs/enemy-artillery-base.prefab"
+    },
+    {
+      "name": "EWR Site 1",
+      "author": "Bug Smasher Pilot (hgoc)",
+      "date": "2026-06-09",
+      "theatre": "Syria",
+      "description": "One of four EWR Sites I created, fortified by short range SAMs",
+      "tags": [
+        "spawn-in-fixed-pos",
+        "fob"
+      ],
+      "likes": 0,
+      "groups": 15,
+      "statics": 86,
+      "zones": 0,
+      "drawings": 2,
+      "airbases": 0,
+      "place_at_origin": true,
+      "sha256": "08fe1bf4052311f1c8d6d6c3494021a770bf03b32abcfbb5a29219c1de43796b",
+      "path": "prefabs/ewr-site-1-2.prefab"
     },
     {
       "name": "EWR Site 1",
