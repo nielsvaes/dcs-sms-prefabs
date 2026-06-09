@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-09T21:18:52Z",
+  "generated": "2026-06-09T21:20:51Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -125,6 +125,27 @@
       "place_at_origin": true,
       "sha256": "9d1c2f4f969ce8ec373281e836fa87fc6ef085513362aa022e7622ac013c5b63",
       "path": "prefabs/ewr-site-4-2.prefab"
+    },
+    {
+      "name": "South FARP",
+      "author": "Bug Smasher Pilot (hgoc)",
+      "date": "2026-06-09",
+      "theatre": "Syria",
+      "description": "A FARP with dynamic spawn slots as well as Apache and Kiowa Slots. You can spawn it in fixed position on the Syria map.",
+      "tags": [
+        "helicopter",
+        "spawn-in-fixed-pos",
+        "farp"
+      ],
+      "likes": 0,
+      "groups": 14,
+      "statics": 249,
+      "zones": 1,
+      "drawings": 3,
+      "airbases": 0,
+      "place_at_origin": true,
+      "sha256": "521de3456563d3ce88ef48d9c178d3052898c5deba12f79254545f0702cdf7f5",
+      "path": "prefabs/south-farp.prefab"
     }
   ]
 }
