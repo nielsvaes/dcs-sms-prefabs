@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-09T21:14:59Z",
+  "generated": "2026-06-09T21:15:35Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -42,27 +42,6 @@
       "path": "prefabs/enemy-artillery-base.prefab"
     },
     {
-      "name": "EWR Site 1",
-      "author": "Bug Smasher Pilot (hgoc)",
-      "date": "2026-06-07",
-      "theatre": "Syria",
-      "description": "4 variations of Red EWR Sites fortified with close-range SAMs. I love using these as ground targets because they break up the monotony of simply taking out vehicles and SAMs. Meant to be placed on the Syria map, but work well as templates for any map.",
-      "tags": [
-        "ground-units",
-        "spawn-in-fixed-pos",
-        "fob"
-      ],
-      "likes": 0,
-      "groups": 14,
-      "statics": 57,
-      "zones": 0,
-      "drawings": 2,
-      "airbases": 0,
-      "place_at_origin": true,
-      "sha256": "8314cd51725f16ea49b3fccde76744a6d788548c70c33d3771b3b67fb366842e",
-      "path": "prefabs/ewr-site-1.prefab"
-    },
-    {
       "name": "EWR Site 2",
       "author": "Bug Smasher Pilot (hgoc)",
       "date": "2026-06-09",
@@ -82,27 +61,6 @@
       "place_at_origin": true,
       "sha256": "77069468bdbf2d9b78962ad5df2703b2c20cc9ea3d5f7b934ad053288627b7f5",
       "path": "prefabs/ewr-site-2-2.prefab"
-    },
-    {
-      "name": "EWR Site 2",
-      "author": "Bug Smasher Pilot (hgoc)",
-      "date": "2026-06-07",
-      "theatre": "Syria",
-      "description": "4 variations of Red EWR Sites fortified with close-range SAMs. I love using these as ground targets because they break up the monotony of simply taking out vehicles and SAMs. Meant to be placed on the Syria map, but work well as templates for any map.",
-      "tags": [
-        "ground-units",
-        "spawn-in-fixed-pos",
-        "fob"
-      ],
-      "likes": 0,
-      "groups": 16,
-      "statics": 30,
-      "zones": 0,
-      "drawings": 2,
-      "airbases": 0,
-      "place_at_origin": true,
-      "sha256": "ea3beeb24e90921768201dd8f3fdf4b82c80fb0040d7bc78889cb21f49356ee5",
-      "path": "prefabs/ewr-site-2.prefab"
     },
     {
       "name": "EWR Site 3",
@@ -126,27 +84,6 @@
       "path": "prefabs/ewr-site-3-2.prefab"
     },
     {
-      "name": "EWR Site 3",
-      "author": "Bug Smasher Pilot (hgoc)",
-      "date": "2026-06-07",
-      "theatre": "Syria",
-      "description": "4 variations of Red EWR Sites fortified with close-range SAMs. I love using these as ground targets because they break up the monotony of simply taking out vehicles and SAMs. Meant to be placed on the Syria map, but work well as templates for any map.",
-      "tags": [
-        "ground-units",
-        "spawn-in-fixed-pos",
-        "fob"
-      ],
-      "likes": 0,
-      "groups": 17,
-      "statics": 45,
-      "zones": 0,
-      "drawings": 2,
-      "airbases": 0,
-      "place_at_origin": true,
-      "sha256": "488db54f818be55a0ad9a7b83aded310a13a15045aa4243d62dd04677d9be9d3",
-      "path": "prefabs/ewr-site-3.prefab"
-    },
-    {
       "name": "EWR Site 4",
       "author": "Bug Smasher Pilot (hgoc)",
       "date": "2026-06-09",
@@ -166,27 +103,6 @@
       "place_at_origin": true,
       "sha256": "9d1c2f4f969ce8ec373281e836fa87fc6ef085513362aa022e7622ac013c5b63",
       "path": "prefabs/ewr-site-4-2.prefab"
-    },
-    {
-      "name": "EWR Site 4",
-      "author": "Bug Smasher Pilot (hgoc)",
-      "date": "2026-06-07",
-      "theatre": "Syria",
-      "description": "4 variations of Red EWR Sites fortified with close-range SAMs. I love using these as ground targets because they break up the monotony of simply taking out vehicles and SAMs. Meant to be placed on the Syria map, but work well as templates for any map.",
-      "tags": [
-        "ground-units",
-        "spawn-in-fixed-pos",
-        "fob"
-      ],
-      "likes": 0,
-      "groups": 17,
-      "statics": 31,
-      "zones": 0,
-      "drawings": 2,
-      "airbases": 0,
-      "place_at_origin": true,
-      "sha256": "fa83449ebbc55cf210c93b00ef7b16966a4136782c450dd3b7109cc02dc0622f",
-      "path": "prefabs/ewr-site-4.prefab"
     }
   ]
 }
