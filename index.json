@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-10T12:12:30Z",
+  "generated": "2026-06-10T12:38:44Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -11,7 +11,7 @@
       "tags": [
         "aaa"
       ],
-      "likes": 0,
+      "likes": 1,
       "groups": 1,
       "statics": 13,
       "zones": 0,
@@ -32,7 +32,7 @@
         "spawn-in-fixed-pos",
         "fob"
       ],
-      "likes": 0,
+      "likes": 2,
       "groups": 51,
       "statics": 419,
       "zones": 0,
@@ -53,7 +53,7 @@
         "spawn-in-fixed-pos",
         "fob"
       ],
-      "likes": 0,
+      "likes": 2,
       "groups": 15,
       "statics": 86,
       "zones": 0,
@@ -74,7 +74,7 @@
         "spawn-in-fixed-pos",
         "fob"
       ],
-      "likes": 0,
+      "likes": 2,
       "groups": 16,
       "statics": 30,
       "zones": 0,
@@ -95,7 +95,7 @@
         "spawn-in-fixed-pos",
         "fob"
       ],
-      "likes": 0,
+      "likes": 2,
       "groups": 17,
       "statics": 65,
       "zones": 0,
@@ -116,7 +116,7 @@
         "spawn-in-fixed-pos",
         "fob"
       ],
-      "likes": 0,
+      "likes": 2,
       "groups": 18,
       "statics": 31,
       "zones": 0,
@@ -137,7 +137,7 @@
         "spawn-in-fixed-pos",
         "farp"
       ],
-      "likes": 0,
+      "likes": 2,
       "groups": 14,
       "statics": 249,
       "zones": 1,
@@ -156,7 +156,7 @@
       "tags": [
         "cold-war"
       ],
-      "likes": 0,
+      "likes": 3,
       "groups": 2,
       "statics": 110,
       "zones": 0,
