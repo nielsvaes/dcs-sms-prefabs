@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-09T21:20:51Z",
+  "generated": "2026-06-10T02:18:02Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -146,6 +146,25 @@
       "place_at_origin": true,
       "sha256": "521de3456563d3ce88ef48d9c178d3052898c5deba12f79254545f0702cdf7f5",
       "path": "prefabs/south-farp.prefab"
+    },
+    {
+      "name": "Truck Depot Complete",
+      "author": "nihprodne",
+      "date": "2026-06-10",
+      "theatre": "Caucasus",
+      "description": "It looks like it could catch a few bombs",
+      "tags": [
+        "cold-war"
+      ],
+      "likes": 0,
+      "groups": 2,
+      "statics": 110,
+      "zones": 0,
+      "drawings": 0,
+      "airbases": 0,
+      "place_at_origin": false,
+      "sha256": "2d401c457924f3c3a10b623a8878332680497f0b74053ca83b501f30a062f5c9",
+      "path": "prefabs/truck-depot-complete.prefab"
     }
   ]
 }
