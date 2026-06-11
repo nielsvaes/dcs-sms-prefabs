@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-11T05:26:24Z",
+  "generated": "2026-06-11T06:37:58Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -137,7 +137,7 @@
         "spawn-in-fixed-pos",
         "fob"
       ],
-      "likes": 0,
+      "likes": 1,
       "groups": 7,
       "statics": 212,
       "zones": 0,
