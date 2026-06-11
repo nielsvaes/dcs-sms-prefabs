@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-10T13:03:58Z",
+  "generated": "2026-06-11T05:26:24Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -125,6 +125,27 @@
       "place_at_origin": true,
       "sha256": "9d1c2f4f969ce8ec373281e836fa87fc6ef085513362aa022e7622ac013c5b63",
       "path": "prefabs/ewr-site-4-2.prefab"
+    },
+    {
+      "name": "SCUD Site",
+      "author": "Bug Smasher Pilot (hgoc)",
+      "date": "2026-06-11",
+      "theatre": "Syria",
+      "description": "Can be placed in fixed position on the Syria map. Fortified with short range SAMs. *A-10 heavy breathing*",
+      "tags": [
+        "ground-units",
+        "spawn-in-fixed-pos",
+        "fob"
+      ],
+      "likes": 0,
+      "groups": 7,
+      "statics": 212,
+      "zones": 0,
+      "drawings": 2,
+      "airbases": 0,
+      "place_at_origin": true,
+      "sha256": "3cc62a9f0070b446a1824dcf90f7038cd66d45c4f488f98a04f07a7f22fde63c",
+      "path": "prefabs/scud-site.prefab"
     },
     {
       "name": "South FARP",
