@@ -1,0 +1,11 @@
+{
+  "author": "Bug Smasher Pilot (hgoc)",
+  "description": "Can be placed in fixed position on the Syria map. Fortified with short range SAMs. *A-10 heavy breathing*",
+  "tags": [
+    "ground-units",
+    "spawn-in-fixed-pos",
+    "fob"
+  ],
+  "thread_id": 1514500944866574508,
+  "source_filename": "SCUD_Site.prefab"
+}
