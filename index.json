@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-11T14:50:04Z",
+  "generated": "2026-06-11T15:48:16Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -21,6 +21,32 @@
       "place_at_origin": false,
       "sha256": "ad58478fe4e5cd20d5a2b5df05a5f4b432b4d47d52f60968127efdda776ffdf7",
       "path": "prefabs/2-x-zsu.prefab"
+    },
+    {
+      "name": "A4-test",
+      "author": "coconutcockpit",
+      "date": "2026-06-11",
+      "theatre": "Syria",
+      "description": "Single A-4E-C Skyhawk spawned in Syria theatre; suitable for quick test flights, training scenarios, or as a starting point for multi-aircraft strike packages.",
+      "tags": [
+        "cold-war"
+      ],
+      "likes": 0,
+      "groups": 1,
+      "statics": 0,
+      "zones": 0,
+      "drawings": 0,
+      "airbases": 0,
+      "required_modules": [
+        {
+          "id": "A-4E-C____",
+          "display_name": "A-4E-C____",
+          "count": 1
+        }
+      ],
+      "place_at_origin": false,
+      "sha256": "6189b4ca6198bd4fec9b454ee27caef77f09873107644afc4499fc3fd1d11e53",
+      "path": "prefabs/a4-test.prefab"
     },
     {
       "name": "Artillery Base",
