@@ -451,6 +451,33 @@ def _split_group_counts(groups):
     return g, s
 
 
+def _derive_required_modules(meta):
+    """Flatten meta.required_modules (a Lua map id -> {id, display_name, count})
+    into a sorted list of {id, display_name, count} for the manifest. The ME
+    writes the map; CI only propagates it (no DCS here to compute origin)."""
+    raw = meta.get("required_modules")
+    if not isinstance(raw, dict):
+        return []
+    out = []
+    for key, rec in raw.items():
+        if not isinstance(rec, dict):
+            continue
+        mid = rec.get("id")
+        if not (isinstance(mid, str) and mid):
+            mid = key if isinstance(key, str) and key else None
+        if not mid:
+            continue
+        dn = rec.get("display_name")
+        cnt = rec.get("count")
+        out.append({
+            "id": mid,
+            "display_name": dn if isinstance(dn, str) else "",
+            "count": int(cnt) if isinstance(cnt, (int, float)) and not isinstance(cnt, bool) else 0,
+        })
+    out.sort(key=lambda m: m["id"])
+    return out
+
+
 def derive(parsed):
     """Derive the manifest's auto-filled fields from a parsed prefab table.
     Returns a dict: groups, statics, zones, drawings, airbases, theatre,
@@ -473,5 +500,6 @@ def derive(parsed):
         "zones": array_len(parsed.get("zones")),
         "drawings": array_len(parsed.get("drawings")),
         "airbases": airbase_count,
+        "required_modules": _derive_required_modules(meta),
         "created_utc": created if isinstance(created, str) else None,
     }

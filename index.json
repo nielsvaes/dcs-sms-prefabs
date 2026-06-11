@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-11T06:37:58Z",
+  "generated": "2026-06-11T14:50:04Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -17,6 +17,7 @@
       "zones": 0,
       "drawings": 0,
       "airbases": 0,
+      "required_modules": [],
       "place_at_origin": false,
       "sha256": "ad58478fe4e5cd20d5a2b5df05a5f4b432b4d47d52f60968127efdda776ffdf7",
       "path": "prefabs/2-x-zsu.prefab"
@@ -38,6 +39,7 @@
       "zones": 0,
       "drawings": 2,
       "airbases": 0,
+      "required_modules": [],
       "place_at_origin": true,
       "sha256": "8e7926268e6b7645f1f16f362e09e0603ea0a18459c3d979eb8d22e6284ee016",
       "path": "prefabs/artillery-base.prefab"
@@ -59,6 +61,7 @@
       "zones": 0,
       "drawings": 2,
       "airbases": 0,
+      "required_modules": [],
       "place_at_origin": true,
       "sha256": "b7f7d4bd8841e64f51c2c1881d94f4e1b77e4857b18d81441f0cd92166a938d5",
       "path": "prefabs/ewr-site-1.prefab"
@@ -80,6 +83,7 @@
       "zones": 0,
       "drawings": 2,
       "airbases": 0,
+      "required_modules": [],
       "place_at_origin": true,
       "sha256": "77069468bdbf2d9b78962ad5df2703b2c20cc9ea3d5f7b934ad053288627b7f5",
       "path": "prefabs/ewr-site-2-2.prefab"
@@ -101,6 +105,7 @@
       "zones": 0,
       "drawings": 2,
       "airbases": 0,
+      "required_modules": [],
       "place_at_origin": true,
       "sha256": "277d8cd049ec095c303417f1b1323017a752f38f6bfcd1522d9ab9d8e6892c27",
       "path": "prefabs/ewr-site-3-2.prefab"
@@ -122,6 +127,7 @@
       "zones": 0,
       "drawings": 2,
       "airbases": 0,
+      "required_modules": [],
       "place_at_origin": true,
       "sha256": "9d1c2f4f969ce8ec373281e836fa87fc6ef085513362aa022e7622ac013c5b63",
       "path": "prefabs/ewr-site-4-2.prefab"
@@ -143,6 +149,7 @@
       "zones": 0,
       "drawings": 2,
       "airbases": 0,
+      "required_modules": [],
       "place_at_origin": true,
       "sha256": "3cc62a9f0070b446a1824dcf90f7038cd66d45c4f488f98a04f07a7f22fde63c",
       "path": "prefabs/scud-site.prefab"
@@ -164,6 +171,7 @@
       "zones": 1,
       "drawings": 3,
       "airbases": 0,
+      "required_modules": [],
       "place_at_origin": true,
       "sha256": "521de3456563d3ce88ef48d9c178d3052898c5deba12f79254545f0702cdf7f5",
       "path": "prefabs/south-farp.prefab"
@@ -183,6 +191,7 @@
       "zones": 0,
       "drawings": 0,
       "airbases": 0,
+      "required_modules": [],
       "place_at_origin": false,
       "sha256": "2d401c457924f3c3a10b623a8878332680497f0b74053ca83b501f30a062f5c9",
       "path": "prefabs/truck-depot-complete.prefab"

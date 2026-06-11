@@ -47,7 +47,7 @@ INDEX_PATH = os.path.join(REPO_ROOT, "index.json")
 # Field order mirrors the demo manifest so diffs read naturally.
 _ENTRY_ORDER = [
     "name", "author", "date", "theatre", "description", "tags", "likes",
-    "groups", "statics", "zones", "drawings", "airbases",
+    "groups", "statics", "zones", "drawings", "airbases", "required_modules",
     "place_at_origin", "sha256", "path",
 ]
 
@@ -146,6 +146,7 @@ def build_entry(prefab_path):
         "zones": derived["zones"],
         "drawings": derived["drawings"],
         "airbases": derived["airbases"],
+        "required_modules": derived["required_modules"],
         "place_at_origin": derived["place_at_origin"],
         "sha256": sha,
         "path": "prefabs/" + fname,
