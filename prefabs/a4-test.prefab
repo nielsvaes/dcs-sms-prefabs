@@ -1,0 +1,307 @@
+return {
+  ["drawings"] = {},
+  ["groups"] = {
+    [1] = {
+      ["color"] = {
+        [1] = 0,
+        [2] = 0.33333333333333,
+        [3] = 1,
+      },
+      ["communication"] = true,
+      ["country"] = 2,
+      ["dynSpawnTemplate"] = false,
+      ["frequency"] = 251,
+      ["groupId"] = 1,
+      ["heading"] = 0,
+      ["hidden"] = false,
+      ["modulation"] = 0,
+      ["name"] = "Aerial-1",
+      ["route"] = {
+        ["dist"] = 2080.4838009282,
+        ["len"] = {
+          [1] = 2080.4838009282,
+          [2] = 0,
+        },
+        ["points"] = {
+          [1] = {
+            ["ETA"] = 0,
+            ["ETA_locked"] = true,
+            ["alt"] = 2000,
+            ["alt_type"] = "BARO",
+            ["eta"] = 28800,
+            ["formation_template"] = "",
+            ["index"] = 1,
+            ["speed"] = 200.41666666667,
+            ["speed_locked"] = true,
+            ["task"] = {
+              ["id"] = "ComboTask",
+              ["params"] = {
+                ["tasks"] = {
+                  [1] = {
+                    ["auto"] = true,
+                    ["enabled"] = true,
+                    ["id"] = "EngageTargets",
+                    ["key"] = "CAS",
+                    ["number"] = 1,
+                    ["params"] = {
+                      ["priority"] = 0,
+                      ["targetTypes"] = {
+                        [1] = "Helicopters",
+                        [2] = "Ground Units",
+                        [3] = "Light armed ships",
+                      },
+                    },
+                  },
+                  [2] = {
+                    ["auto"] = true,
+                    ["enabled"] = true,
+                    ["id"] = "WrappedAction",
+                    ["number"] = 2,
+                    ["params"] = {
+                      ["action"] = {
+                        ["id"] = "Option",
+                        ["params"] = {
+                          ["name"] = 1,
+                          ["value"] = 2,
+                        },
+                      },
+                    },
+                  },
+                  [3] = {
+                    ["auto"] = true,
+                    ["enabled"] = true,
+                    ["id"] = "WrappedAction",
+                    ["number"] = 3,
+                    ["params"] = {
+                      ["action"] = {
+                        ["id"] = "Option",
+                        ["params"] = {
+                          ["name"] = 3,
+                          ["value"] = 1,
+                        },
+                      },
+                    },
+                  },
+                  [4] = {
+                    ["auto"] = true,
+                    ["enabled"] = true,
+                    ["id"] = "WrappedAction",
+                    ["number"] = 4,
+                    ["params"] = {
+                      ["action"] = {
+                        ["id"] = "Option",
+                        ["params"] = {
+                          ["formationIndex"] = 2,
+                          ["name"] = 5,
+                          ["value"] = 131074,
+                          ["variantIndex"] = 2,
+                        },
+                      },
+                    },
+                  },
+                  [5] = {
+                    ["auto"] = true,
+                    ["enabled"] = true,
+                    ["id"] = "WrappedAction",
+                    ["number"] = 5,
+                    ["params"] = {
+                      ["action"] = {
+                        ["id"] = "Option",
+                        ["params"] = {
+                          ["name"] = 15,
+                          ["value"] = true,
+                        },
+                      },
+                    },
+                  },
+                  [6] = {
+                    ["auto"] = true,
+                    ["enabled"] = true,
+                    ["id"] = "WrappedAction",
+                    ["number"] = 6,
+                    ["params"] = {
+                      ["action"] = {
+                        ["id"] = "Option",
+                        ["params"] = {
+                          ["name"] = 21,
+                          ["noTargetTypes"] = {
+                            [1] = "Fighters",
+                            [2] = "Multirole fighters",
+                            [3] = "Bombers",
+                            [4] = "Helicopters",
+                            [5] = "UAVs",
+                            [6] = "Infantry",
+                            [7] = "Fortifications",
+                            [8] = "Tanks",
+                            [9] = "IFV",
+                            [10] = "APC",
+                            [11] = "Artillery",
+                            [12] = "Unarmed vehicles",
+                            [13] = "AAA",
+                            [14] = "SR SAM",
+                            [15] = "MR SAM",
+                            [16] = "LR SAM",
+                            [17] = "Aircraft Carriers",
+                            [18] = "Cruisers",
+                            [19] = "Destroyers",
+                            [20] = "Frigates",
+                            [21] = "Corvettes",
+                            [22] = "Light armed ships",
+                            [23] = "Unarmed ships",
+                            [24] = "Submarines",
+                            [25] = "Cruise missiles",
+                            [26] = "Antiship Missiles",
+                            [27] = "AA Missiles",
+                            [28] = "AG Missiles",
+                            [29] = "SA Missiles",
+                          },
+                          ["targetTypes"] = {},
+                          ["value"] = "none;",
+                        },
+                      },
+                    },
+                  },
+                  [7] = {
+                    ["auto"] = true,
+                    ["enabled"] = true,
+                    ["id"] = "WrappedAction",
+                    ["number"] = 7,
+                    ["params"] = {
+                      ["action"] = {
+                        ["id"] = "Option",
+                        ["params"] = {
+                          ["name"] = 19,
+                          ["value"] = true,
+                        },
+                      },
+                    },
+                  },
+                  [8] = {
+                    ["auto"] = true,
+                    ["enabled"] = true,
+                    ["id"] = "WrappedAction",
+                    ["number"] = 8,
+                    ["params"] = {
+                      ["action"] = {
+                        ["id"] = "Option",
+                        ["params"] = {
+                          ["name"] = 35,
+                          ["value"] = true,
+                        },
+                      },
+                    },
+                  },
+                },
+              },
+            },
+            ["type"] = {
+              ["action"] = "Turning Point",
+              ["name"] = "Turning point",
+              ["type"] = "Turning Point",
+            },
+            ["x"] = 0,
+            ["y"] = 0,
+          },
+          [2] = {
+            ["ETA"] = 10.380792353904,
+            ["ETA_locked"] = false,
+            ["alt"] = 2000,
+            ["alt_type"] = "BARO",
+            ["formation_template"] = "",
+            ["index"] = 2,
+            ["speed"] = 200.41666666667,
+            ["speed_locked"] = true,
+            ["task"] = {
+              ["id"] = "ComboTask",
+              ["params"] = {
+                ["tasks"] = {},
+              },
+            },
+            ["type"] = {
+              ["action"] = "Turning Point",
+              ["name"] = "Turning point",
+              ["type"] = "Turning Point",
+            },
+            ["x"] = 1567.9803667682,
+            ["y"] = -1367.4247384607,
+          },
+        },
+        ["range"] = 2080.4838009282,
+      },
+      ["start_time"] = 0,
+      ["task"] = "CAS",
+      ["tasks"] = {},
+      ["type"] = "plane",
+      ["uncontrolled"] = false,
+      ["units"] = {
+        [1] = {
+          ["AddPropAircraft"] = {
+            ["Auto_Catapult_Power"] = false,
+            ["HideECMPanel"] = false,
+            ["Night_Vision"] = false,
+          },
+          ["alt"] = 2000,
+          ["callsign"] = {
+            [1] = 1,
+            [2] = 1,
+            [3] = 1,
+            ["name"] = "Enfield11",
+          },
+          ["country"] = 2,
+          ["heading"] = -41.09145570554,
+          ["index"] = 1,
+          ["livery_id"] = "unmarked",
+          ["name"] = "Aerial-1-1",
+          ["onboard_num"] = "010",
+          ["payload"] = {
+            ["ammo_type"] = 1,
+            ["chaff"] = 30,
+            ["flare"] = 30,
+            ["fuel"] = 2467.5454273299,
+            ["gun"] = 100,
+            ["pylons"] = {},
+          },
+          ["skill"] = "Veteran",
+          ["type"] = "A-4E-C",
+          ["unitId"] = 1,
+          ["x"] = 0,
+          ["y"] = 0,
+        },
+      },
+      ["variantProbability"] = {
+        [1] = {
+          ["changed"] = false,
+          ["value"] = 100,
+        },
+      },
+      ["x"] = 0,
+      ["y"] = 0,
+    },
+  },
+  ["meta"] = {
+    ["created_utc"] = "2026-06-11T15:16:46Z",
+    ["name"] = "A4-test",
+    ["required_modules"] = {
+      ["A-4E-C____"] = {
+        ["count"] = 1,
+        ["display_name"] = "A-4E-C____",
+        ["id"] = "A-4E-C____",
+        ["objects"] = {
+          ["A-4E-C____"] = 1,
+        },
+      },
+    },
+    ["sms_prefab_version"] = "0.5.0",
+    ["theatre"] = "Syria",
+    ["world_anchor"] = {
+      ["x"] = 49310.476258744,
+      ["y"] = 143982.58775757,
+    },
+    ["community"] = {
+      ["author"] = "coconutcockpit",
+      ["source"] = "https://discord.com/channels/1501529032817115266/1514657444851224616/1514657444851224616",
+    },
+  },
+  ["statics"] = {},
+  ["zones"] = {},
+}
