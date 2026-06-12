@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-11T15:49:17Z",
+  "generated": "2026-06-12T08:02:19Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -153,6 +153,26 @@
       "place_at_origin": true,
       "sha256": "3cc62a9f0070b446a1824dcf90f7038cd66d45c4f488f98a04f07a7f22fde63c",
       "path": "prefabs/scud-site.prefab"
+    },
+    {
+      "name": "snow-city",
+      "author": "coconutcockpit",
+      "date": "2026-05-05",
+      "theatre": "Syria",
+      "description": "Snow-covered city setting in Syria with 36 groups of mixed US and allied aircraft, helicopters, transport, and support elements including carrier operations personnel and infrastructure for large-scale air campaign or carrier strike group operations.",
+      "tags": [
+        "airbase"
+      ],
+      "likes": 0,
+      "groups": 36,
+      "statics": 60,
+      "zones": 3,
+      "drawings": 9,
+      "airbases": 0,
+      "required_modules": [],
+      "place_at_origin": true,
+      "sha256": "420c1857da03f7e51dc2812a9b63ad8cbae9d5befa10fed8fd6578466099e27c",
+      "path": "prefabs/snow-city.prefab"
     },
     {
       "name": "South FARP",
