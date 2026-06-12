@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-12T08:02:19Z",
+  "generated": "2026-06-12T09:58:51Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -21,6 +21,26 @@
       "place_at_origin": false,
       "sha256": "ad58478fe4e5cd20d5a2b5df05a5f4b432b4d47d52f60968127efdda776ffdf7",
       "path": "prefabs/2-x-zsu.prefab"
+    },
+    {
+      "name": "Andersen AFB",
+      "author": "coconutcockpit",
+      "date": "2026-06-05",
+      "theatre": "MarianaIslands",
+      "description": "This is just some text so I don't have to pay the AI to generate anything for me :D",
+      "tags": [
+        "airbase"
+      ],
+      "likes": 0,
+      "groups": 12,
+      "statics": 163,
+      "zones": 0,
+      "drawings": 0,
+      "airbases": 0,
+      "required_modules": [],
+      "place_at_origin": true,
+      "sha256": "dc40b2d65018956829cb5f60182711e2cc936deda386f04ae2b748d7804d6a06",
+      "path": "prefabs/andersen-afb.prefab"
     },
     {
       "name": "Artillery Base",
