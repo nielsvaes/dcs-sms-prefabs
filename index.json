@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-12T09:58:51Z",
+  "generated": "2026-06-12T10:01:43Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -21,6 +21,33 @@
       "place_at_origin": false,
       "sha256": "ad58478fe4e5cd20d5a2b5df05a5f4b432b4d47d52f60968127efdda776ffdf7",
       "path": "prefabs/2-x-zsu.prefab"
+    },
+    {
+      "name": "A4-test",
+      "author": "coconutcockpit",
+      "date": "2026-06-11",
+      "theatre": "Syria",
+      "description": "This is just some text so I don't have to pay the AI to generate anything for me :D",
+      "tags": [
+        "aircraft-carrier",
+        "cold-war"
+      ],
+      "likes": 0,
+      "groups": 1,
+      "statics": 0,
+      "zones": 0,
+      "drawings": 0,
+      "airbases": 0,
+      "required_modules": [
+        {
+          "id": "A-4E-C____",
+          "display_name": "A-4E-C____",
+          "count": 1
+        }
+      ],
+      "place_at_origin": false,
+      "sha256": "aaf122085ff6532fa2c504fc2555ff646f7feb8b75886efe55a7f20b635eb1f1",
+      "path": "prefabs/a4-test.prefab"
     },
     {
       "name": "Andersen AFB",
