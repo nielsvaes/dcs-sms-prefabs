@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-12T10:03:50Z",
+  "generated": "2026-06-12T14:01:38Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -21,6 +21,32 @@
       "place_at_origin": false,
       "sha256": "ad58478fe4e5cd20d5a2b5df05a5f4b432b4d47d52f60968127efdda776ffdf7",
       "path": "prefabs/2-x-zsu.prefab"
+    },
+    {
+      "name": "A4-test",
+      "author": "coconutcockpit",
+      "date": "2026-06-11",
+      "theatre": "Syria",
+      "description": "The contest starts with the qualification phase, which takes place over the preceding three years to determine which teams qualify for the tournament phase. In the tournament phase, 48 teams (as of the 2026 World Cup) compete for the title at venues within the host nation(s) over the course of about a month. The host nation(s) automatically qualify for the group stage of the tournament.",
+      "tags": [
+        "aircraft-carrier"
+      ],
+      "likes": 0,
+      "groups": 1,
+      "statics": 0,
+      "zones": 0,
+      "drawings": 0,
+      "airbases": 0,
+      "required_modules": [
+        {
+          "id": "A-4E-C____",
+          "display_name": "A-4E-C____",
+          "count": 1
+        }
+      ],
+      "place_at_origin": false,
+      "sha256": "e9b9c255ccdc4cc58e5f79130a6b9e5efcfab74980e731ee196044ead22c80a5",
+      "path": "prefabs/a4-test.prefab"
     },
     {
       "name": "Artillery Base",
