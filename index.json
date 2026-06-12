@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-12T10:01:43Z",
+  "generated": "2026-06-12T10:03:50Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -21,53 +21,6 @@
       "place_at_origin": false,
       "sha256": "ad58478fe4e5cd20d5a2b5df05a5f4b432b4d47d52f60968127efdda776ffdf7",
       "path": "prefabs/2-x-zsu.prefab"
-    },
-    {
-      "name": "A4-test",
-      "author": "coconutcockpit",
-      "date": "2026-06-11",
-      "theatre": "Syria",
-      "description": "This is just some text so I don't have to pay the AI to generate anything for me :D",
-      "tags": [
-        "aircraft-carrier",
-        "cold-war"
-      ],
-      "likes": 0,
-      "groups": 1,
-      "statics": 0,
-      "zones": 0,
-      "drawings": 0,
-      "airbases": 0,
-      "required_modules": [
-        {
-          "id": "A-4E-C____",
-          "display_name": "A-4E-C____",
-          "count": 1
-        }
-      ],
-      "place_at_origin": false,
-      "sha256": "aaf122085ff6532fa2c504fc2555ff646f7feb8b75886efe55a7f20b635eb1f1",
-      "path": "prefabs/a4-test.prefab"
-    },
-    {
-      "name": "Andersen AFB",
-      "author": "coconutcockpit",
-      "date": "2026-06-05",
-      "theatre": "MarianaIslands",
-      "description": "This is just some text so I don't have to pay the AI to generate anything for me :D",
-      "tags": [
-        "airbase"
-      ],
-      "likes": 0,
-      "groups": 12,
-      "statics": 163,
-      "zones": 0,
-      "drawings": 0,
-      "airbases": 0,
-      "required_modules": [],
-      "place_at_origin": true,
-      "sha256": "dc40b2d65018956829cb5f60182711e2cc936deda386f04ae2b748d7804d6a06",
-      "path": "prefabs/andersen-afb.prefab"
     },
     {
       "name": "Artillery Base",
@@ -200,26 +153,6 @@
       "place_at_origin": true,
       "sha256": "3cc62a9f0070b446a1824dcf90f7038cd66d45c4f488f98a04f07a7f22fde63c",
       "path": "prefabs/scud-site.prefab"
-    },
-    {
-      "name": "snow-city",
-      "author": "coconutcockpit",
-      "date": "2026-05-05",
-      "theatre": "Syria",
-      "description": "Snow-covered city setting in Syria with 36 groups of mixed US and allied aircraft, helicopters, transport, and support elements including carrier operations personnel and infrastructure for large-scale air campaign or carrier strike group operations.",
-      "tags": [
-        "airbase"
-      ],
-      "likes": 0,
-      "groups": 36,
-      "statics": 60,
-      "zones": 3,
-      "drawings": 9,
-      "airbases": 0,
-      "required_modules": [],
-      "place_at_origin": true,
-      "sha256": "420c1857da03f7e51dc2812a9b63ad8cbae9d5befa10fed8fd6578466099e27c",
-      "path": "prefabs/snow-city.prefab"
     },
     {
       "name": "South FARP",
