@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-13T20:17:23Z",
+  "generated": "2026-06-13T20:24:55Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -195,34 +195,6 @@
       "place_at_origin": false,
       "sha256": "2d401c457924f3c3a10b623a8878332680497f0b74053ca83b501f30a062f5c9",
       "path": "prefabs/truck-depot-complete.prefab"
-    },
-    {
-      "name": "Valley Base Complete",
-      "author": "nihprodne",
-      "date": "2026-06-13",
-      "theatre": "Caucasus",
-      "description": "Place anywhere, shift things as needed Meant to fit a USF Cold War setting",
-      "tags": [
-        "helicopter",
-        "farp",
-        "cold-war"
-      ],
-      "likes": 0,
-      "groups": 1,
-      "statics": 168,
-      "zones": 0,
-      "drawings": 0,
-      "airbases": 0,
-      "required_modules": [
-        {
-          "id": "WWII Armour and Technics",
-          "display_name": "DCS: WWII Assets Pack",
-          "count": 1
-        }
-      ],
-      "place_at_origin": false,
-      "sha256": "87008a6980a4f850d7902a7c13d93781fc5940a9eedb68b8e98df47c08258902",
-      "path": "prefabs/valley-base-complete.prefab"
     }
   ]
 }
