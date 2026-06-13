@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-13T20:24:55Z",
+  "generated": "2026-06-13T20:25:33Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -195,6 +195,28 @@
       "place_at_origin": false,
       "sha256": "2d401c457924f3c3a10b623a8878332680497f0b74053ca83b501f30a062f5c9",
       "path": "prefabs/truck-depot-complete.prefab"
+    },
+    {
+      "name": "Valley Base Complete",
+      "author": "nihprodne",
+      "date": "2026-06-13",
+      "theatre": "Caucasus",
+      "description": "Cold War Era (USA) Place Anywhere Shift as needed (Removed WWII Asset and re-uploaded)",
+      "tags": [
+        "helicopter",
+        "farp",
+        "cold-war"
+      ],
+      "likes": 0,
+      "groups": 1,
+      "statics": 168,
+      "zones": 0,
+      "drawings": 0,
+      "airbases": 0,
+      "required_modules": [],
+      "place_at_origin": false,
+      "sha256": "2e32325e614c7a947907fa231560dc65a556440e56812485c5c0cc052ca5069a",
+      "path": "prefabs/valley-base-complete-2.prefab"
     }
   ]
 }
