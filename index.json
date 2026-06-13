@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-12T16:50:49Z",
+  "generated": "2026-06-13T09:30:49Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -43,6 +43,28 @@
       "place_at_origin": true,
       "sha256": "8e7926268e6b7645f1f16f362e09e0603ea0a18459c3d979eb8d22e6284ee016",
       "path": "prefabs/artillery-base.prefab"
+    },
+    {
+      "name": "cinematic-apaches",
+      "author": "coconutcockpit",
+      "date": "2026-06-13",
+      "theatre": "Syria",
+      "description": "This is a prefab where Apache will fly over Tel Nof when you take the runway",
+      "tags": [
+        "helicopter",
+        "plane",
+        "airbase"
+      ],
+      "likes": 0,
+      "groups": 2,
+      "statics": 5,
+      "zones": 1,
+      "drawings": 0,
+      "airbases": 0,
+      "required_modules": [],
+      "place_at_origin": true,
+      "sha256": "e3d10435e80a5597a4a3304da421d1d398f77fa85cf56e3da9dfac936677373d",
+      "path": "prefabs/cinematic-apaches.prefab"
     },
     {
       "name": "EWR Site 1",
