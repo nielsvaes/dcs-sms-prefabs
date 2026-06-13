@@ -9,7 +9,7 @@ defense layouts. All built by the community, all a click away.
 
 <br>
 
-[![Join the Coconut Cockpit Discord](https://img.shields.io/badge/Discord-Join%20the%20Coconut%20Cockpit-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/mFFXYmet)
+[![Join the Coconut Cockpit Discord](https://img.shields.io/badge/Discord-Join%20the%20Coconut%20Cockpit-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/smwN77cu3w)
 
 [![Discord members](https://img.shields.io/discord/1501529032817115266?logo=discord&logoColor=white&label=members&color=5865F2)](https://discord.gg/mFFXYmet)
 &nbsp;
@@ -44,7 +44,7 @@ browse, click, done.
 
 Here's the fun part: **this catalog is filled by you.**
 
-**Post it in the [Coconut Cockpit Discord](https://discord.gg/mFFXYmet)** and our friendly bot
+**Post it in the [Coconut Cockpit Discord](https://discord.gg/smwN77cu3w)** and our friendly bot
 picks it up, checks it over, and adds it to this catalog for everyone to enjoy.
 
 
