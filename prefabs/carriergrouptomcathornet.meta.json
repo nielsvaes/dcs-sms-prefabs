@@ -1,0 +1,14 @@
+{
+  "author": "Taters",
+  "description": "Simple Carrier Group Static and Client F-14 and F-18 If SH-60B doesn't follow you may need to update the Follow task. I used Distance 700 and Elevation 190 Based on this video: https://www.youtube.com/watch?v=n8Mm1IaRd0g",
+  "images": [
+    "1517301489566093332/1.jpg",
+    "1517301489566093332/2.jpg"
+  ],
+  "tags": [
+    "aircraft-carrier",
+    "navy"
+  ],
+  "thread_id": 1517301489566093332,
+  "source_filename": "CarrierGroupTomcatHornet.prefab"
+}
