@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-14T15:13:49Z",
+  "generated": "2026-06-18T22:54:52Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -43,6 +43,27 @@
       "place_at_origin": true,
       "sha256": "8e7926268e6b7645f1f16f362e09e0603ea0a18459c3d979eb8d22e6284ee016",
       "path": "prefabs/artillery-base.prefab"
+    },
+    {
+      "name": "CarrierGroupTomcatHornet",
+      "author": "Taters",
+      "date": "2026-06-18",
+      "theatre": "MarianaIslandsWWII",
+      "description": "Simple Carrier Group Static and Client F-14 and F-18 If SH-60B doesn't follow you may need to update the Follow task. I used Distance 700 and Elevation 190 Based on this video: https://www.youtube.com/watch?v=n8Mm1IaRd0g",
+      "tags": [
+        "aircraft-carrier",
+        "navy"
+      ],
+      "likes": 0,
+      "groups": 5,
+      "statics": 13,
+      "zones": 0,
+      "drawings": 0,
+      "airbases": 0,
+      "required_modules": [],
+      "place_at_origin": false,
+      "sha256": "c6794c50851212f6781da728b45c7363cda724ce14039a9d6a9fdae2b49606b7",
+      "path": "prefabs/carriergrouptomcathornet.prefab"
     },
     {
       "name": "EWR Site 1",
