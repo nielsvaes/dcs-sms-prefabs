@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-19T11:43:55Z",
+  "generated": "2026-06-24T19:19:06Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -64,6 +64,32 @@
       "place_at_origin": false,
       "sha256": "c6794c50851212f6781da728b45c7363cda724ce14039a9d6a9fdae2b49606b7",
       "path": "prefabs/carriergrouptomcathornet.prefab"
+    },
+    {
+      "name": "Crew Chief",
+      "author": "Uve",
+      "date": "2026-06-24",
+      "theatre": "Iraq",
+      "description": "Simple but adds immersion.",
+      "tags": [
+        "airbase"
+      ],
+      "likes": 0,
+      "groups": 0,
+      "statics": 9,
+      "zones": 0,
+      "drawings": 0,
+      "airbases": 0,
+      "required_modules": [
+        {
+          "id": "Massun92-Humans",
+          "display_name": "Massun92-Humans",
+          "count": 3
+        }
+      ],
+      "place_at_origin": false,
+      "sha256": "30b6ab2f0bef3e49f2732876c9e02e35fe8dd4fa00bda8edede5528e7cae580e",
+      "path": "prefabs/crew-chief.prefab"
     },
     {
       "name": "EWR Site 1",
