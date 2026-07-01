@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-06-30T12:04:29Z",
+  "generated": "2026-07-01T10:18:48Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -75,7 +75,7 @@
         "ground-units",
         "airbase"
       ],
-      "likes": 0,
+      "likes": 1,
       "groups": 0,
       "statics": 10,
       "zones": 0,
