@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-07-02T15:18:52Z",
+  "generated": "2026-07-17T14:57:39Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -199,6 +199,28 @@
       "place_at_origin": true,
       "sha256": "9d1c2f4f969ce8ec373281e836fa87fc6ef085513362aa022e7622ac013c5b63",
       "path": "prefabs/ewr-site-4-2.prefab"
+    },
+    {
+      "name": "Red Vehicle Park 1",
+      "author": "TheProperGrip",
+      "date": "2026-07-17",
+      "theatre": "Caucasus",
+      "description": "Loosely based on public recon images from the 2021 in the buildup prior to the invasion of Ukraine. Infantry and patrolling vehicles are actual units, everything else should be static.",
+      "tags": [
+        "ground-units",
+        "helicopter",
+        "modern-day"
+      ],
+      "likes": 0,
+      "groups": 17,
+      "statics": 354,
+      "zones": 0,
+      "drawings": 0,
+      "airbases": 0,
+      "required_modules": [],
+      "place_at_origin": false,
+      "sha256": "fbac00f7c7fa6006cdf2267c65275a44125104f3e1967966bad45fe9071dcc54",
+      "path": "prefabs/red-vehicle-park-1.prefab"
     },
     {
       "name": "SCUD Site",
