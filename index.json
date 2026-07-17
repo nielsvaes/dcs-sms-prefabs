@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-07-17T14:57:39Z",
+  "generated": "2026-07-17T15:15:56Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -54,7 +54,7 @@
         "aircraft-carrier",
         "navy"
       ],
-      "likes": 2,
+      "likes": 3,
       "groups": 5,
       "statics": 13,
       "zones": 0,
