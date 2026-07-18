@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-07-17T19:15:51Z",
+  "generated": "2026-07-18T03:15:50Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -211,7 +211,7 @@
         "helicopter",
         "modern-day"
       ],
-      "likes": 2,
+      "likes": 3,
       "groups": 17,
       "statics": 354,
       "zones": 0,
