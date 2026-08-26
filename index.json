@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-08-26T21:27:54Z",
+  "generated": "2026-08-26T21:31:04Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -21,6 +21,36 @@
       "place_at_origin": false,
       "sha256": "ad58478fe4e5cd20d5a2b5df05a5f4b432b4d47d52f60968127efdda776ffdf7",
       "path": "prefabs/2-x-zsu.prefab"
+    },
+    {
+      "name": "AC Ammo and Fuel (Bombs) (F A)",
+      "author": "Shuffle",
+      "date": "2026-08-18",
+      "theatre": "Nevada",
+      "description": "A collection of iron bombs, fire extinguishers and starter carts. Contains a CAM tow bar",
+      "tags": [
+        "fob",
+        "unarmed",
+        "farp",
+        "airbase",
+        "modern-day"
+      ],
+      "likes": 0,
+      "groups": 0,
+      "statics": 23,
+      "zones": 0,
+      "drawings": 1,
+      "airbases": 0,
+      "required_modules": [
+        {
+          "id": "CivilAircraftMod",
+          "display_name": "CivilAircraftMod",
+          "count": 1
+        }
+      ],
+      "place_at_origin": false,
+      "sha256": "7984de893172d0b3031eacab54139b8175d1c5199f0fb54d5b70c520e62a1b0e",
+      "path": "prefabs/ac-ammo-and-fuel-bombs-f-a.prefab"
     },
     {
       "name": "AC Ammo and Fuel (F A)",
