@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-08-26T21:25:33Z",
+  "generated": "2026-08-26T21:27:54Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -21,6 +21,36 @@
       "place_at_origin": false,
       "sha256": "ad58478fe4e5cd20d5a2b5df05a5f4b432b4d47d52f60968127efdda776ffdf7",
       "path": "prefabs/2-x-zsu.prefab"
+    },
+    {
+      "name": "AC Ammo and Fuel (F A)",
+      "author": "Shuffle",
+      "date": "2026-08-18",
+      "theatre": "Nevada",
+      "description": "A collection of ammo boxes, fire extinguishers and starter carts. Contains a CAM Tow Bar",
+      "tags": [
+        "fob",
+        "ground-units",
+        "farp",
+        "airbase",
+        "modern-day"
+      ],
+      "likes": 0,
+      "groups": 0,
+      "statics": 22,
+      "zones": 0,
+      "drawings": 1,
+      "airbases": 0,
+      "required_modules": [
+        {
+          "id": "CivilAircraftMod",
+          "display_name": "CivilAircraftMod",
+          "count": 1
+        }
+      ],
+      "place_at_origin": false,
+      "sha256": "2d581f64ea44b97fbe03dbdf7f2090dc9bda32952738a2d5c1db0f302cb9078e",
+      "path": "prefabs/ac-ammo-and-fuel-f-a.prefab"
     },
     {
       "name": "AC Double Revetment (1H) (F A E)",
