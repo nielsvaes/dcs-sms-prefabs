@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-07-30T13:17:35Z",
+  "generated": "2026-08-26T20:28:49Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -43,6 +43,35 @@
       "place_at_origin": true,
       "sha256": "8e7926268e6b7645f1f16f362e09e0603ea0a18459c3d979eb8d22e6284ee016",
       "path": "prefabs/artillery-base.prefab"
+    },
+    {
+      "name": "Carrier - Blank CSG 75",
+      "author": "Shuffle",
+      "date": "2026-08-18",
+      "theatre": "Caucasus",
+      "description": "Carrier Strike Group with CVN 75, 2x Burkes, 1x Tico, 1x Perry, 1x Tilde Logistics. On deck and launching are CSAR HH-60, E2-D and S-3B, delayed A-6E. UH60 is used for model quality purposes. Switch it out to low poly HH60 if it bothers you. Deck is deliberately left clear for use with RedKites Carrier Deck scripts, but you can add your own statics if you wish.",
+      "tags": [
+        "contains-triggers",
+        "aircraft-carrier",
+        "modern-day",
+        "navy"
+      ],
+      "likes": 0,
+      "groups": 7,
+      "statics": 5,
+      "zones": 1,
+      "drawings": 2,
+      "airbases": 0,
+      "required_modules": [
+        {
+          "id": "CJS Super Hornets",
+          "display_name": "CJS Super Hornets",
+          "count": 1
+        }
+      ],
+      "place_at_origin": false,
+      "sha256": "16172477070a4a091e18a1032bb89b3b01409ce1a5f11be7414b13a71834c282",
+      "path": "prefabs/carrier-blank-csg-75.prefab"
     },
     {
       "name": "CarrierGroupTomcatHornet",
