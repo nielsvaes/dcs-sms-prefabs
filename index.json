@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-08-26T21:22:41Z",
+  "generated": "2026-08-26T21:25:33Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -71,6 +71,29 @@
       "place_at_origin": false,
       "sha256": "9e37473aeaa507920d01a04fa7c43657348889cf88c13c82412c44cd9f1d917a",
       "path": "prefabs/ac-electrical-starter-e.prefab"
+    },
+    {
+      "name": "AC Fuel Truck (F)",
+      "author": "Shuffle",
+      "date": "2026-08-18",
+      "theatre": "Nevada",
+      "description": "\"Chief, fill 'er up...\" HEMTT Refueler, crew, oil drums and cones for all your refuelling needs",
+      "tags": [
+        "ground-units",
+        "airbase",
+        "unarmed",
+        "modern-day"
+      ],
+      "likes": 0,
+      "groups": 0,
+      "statics": 9,
+      "zones": 0,
+      "drawings": 1,
+      "airbases": 0,
+      "required_modules": [],
+      "place_at_origin": false,
+      "sha256": "edd9f275c9c21ba1466ccd372a125eb5fdf739138f7c42a7cdccc54cd67845ef",
+      "path": "prefabs/ac-fuel-truck-f.prefab"
     },
     {
       "name": "Artillery Base",
