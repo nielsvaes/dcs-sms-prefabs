@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-08-26T21:20:48Z",
+  "generated": "2026-08-26T21:22:41Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -48,6 +48,29 @@
       "place_at_origin": false,
       "sha256": "ae06155f22fd5f3e634c7bda8819e39b28891dfc4884c5721cf31b8ba1e396de",
       "path": "prefabs/ac-double-revetment-1h-f-a-e.prefab"
+    },
+    {
+      "name": "AC Electrical Starter (E)",
+      "author": "Shuffle",
+      "date": "2026-08-18",
+      "theatre": "Nevada",
+      "description": "Connect External Ground Power with this starter cart and tug",
+      "tags": [
+        "ground-units",
+        "airbase",
+        "modern-day",
+        "unarmed"
+      ],
+      "likes": 0,
+      "groups": 0,
+      "statics": 10,
+      "zones": 0,
+      "drawings": 1,
+      "airbases": 0,
+      "required_modules": [],
+      "place_at_origin": false,
+      "sha256": "9e37473aeaa507920d01a04fa7c43657348889cf88c13c82412c44cd9f1d917a",
+      "path": "prefabs/ac-electrical-starter-e.prefab"
     },
     {
       "name": "Artillery Base",
