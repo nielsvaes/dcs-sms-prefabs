@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-08-26T20:53:33Z",
+  "generated": "2026-08-26T21:20:48Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -21,6 +21,33 @@
       "place_at_origin": false,
       "sha256": "ad58478fe4e5cd20d5a2b5df05a5f4b432b4d47d52f60968127efdda776ffdf7",
       "path": "prefabs/2-x-zsu.prefab"
+    },
+    {
+      "name": "AC Double Revetment (1H) (F A E)",
+      "author": "Shuffle",
+      "date": "2026-08-18",
+      "theatre": "Nevada",
+      "description": "Add some of that Desert Storm vibes with this revetment and ground crew. Incl Fuel, Ammo and Electrical starters with ground crew, cones and vehicles.",
+      "tags": [
+        "ground-units",
+        "airbase"
+      ],
+      "likes": 0,
+      "groups": 0,
+      "statics": 44,
+      "zones": 0,
+      "drawings": 1,
+      "airbases": 0,
+      "required_modules": [
+        {
+          "id": "CivilAircraftMod",
+          "display_name": "CivilAircraftMod",
+          "count": 1
+        }
+      ],
+      "place_at_origin": false,
+      "sha256": "ae06155f22fd5f3e634c7bda8819e39b28891dfc4884c5721cf31b8ba1e396de",
+      "path": "prefabs/ac-double-revetment-1h-f-a-e.prefab"
     },
     {
       "name": "Artillery Base",
