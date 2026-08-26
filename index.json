@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-08-26T20:30:16Z",
+  "generated": "2026-08-26T20:53:33Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -79,7 +79,7 @@
         "modern-day",
         "navy"
       ],
-      "likes": 0,
+      "likes": 1,
       "groups": 7,
       "statics": 5,
       "zones": 1,
