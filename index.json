@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-08-26T21:31:04Z",
+  "generated": "2026-08-28T22:26:16Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -35,7 +35,7 @@
         "airbase",
         "modern-day"
       ],
-      "likes": 0,
+      "likes": 1,
       "groups": 0,
       "statics": 23,
       "zones": 0,
@@ -65,7 +65,7 @@
         "airbase",
         "modern-day"
       ],
-      "likes": 0,
+      "likes": 1,
       "groups": 0,
       "statics": 22,
       "zones": 0,
@@ -92,7 +92,7 @@
         "ground-units",
         "airbase"
       ],
-      "likes": 0,
+      "likes": 1,
       "groups": 0,
       "statics": 44,
       "zones": 0,
@@ -121,7 +121,7 @@
         "modern-day",
         "unarmed"
       ],
-      "likes": 0,
+      "likes": 1,
       "groups": 0,
       "statics": 10,
       "zones": 0,
@@ -144,7 +144,7 @@
         "unarmed",
         "modern-day"
       ],
-      "likes": 0,
+      "likes": 1,
       "groups": 0,
       "statics": 9,
       "zones": 0,
@@ -189,7 +189,7 @@
         "modern-day",
         "navy"
       ],
-      "likes": 0,
+      "likes": 1,
       "groups": 6,
       "statics": 6,
       "zones": 1,
@@ -212,7 +212,7 @@
         "modern-day",
         "navy"
       ],
-      "likes": 1,
+      "likes": 2,
       "groups": 7,
       "statics": 5,
       "zones": 1,
