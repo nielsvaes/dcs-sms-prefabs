@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-10-07T02:31:35Z",
+  "generated": "2026-10-07T02:32:00Z",
   "prefabs": [
     {
       "name": "2 x ZSU",
@@ -199,29 +199,6 @@
       "place_at_origin": false,
       "sha256": "602e23c1bbe5fd273f1b5499273067ba392d56917798e48fb54e357abadfaf02",
       "path": "prefabs/carrier-blank-csg-73-2.prefab"
-    },
-    {
-      "name": "Carrier - Blank CSG 73",
-      "author": "Shuffle",
-      "date": "2026-08-18",
-      "theatre": "Caucasus",
-      "description": "Carrier Strike Group with CVN 73, 2x Burkes, 1x Tico, 1x Perry, 1x Tilde Logistics. On deck and launching are CSAR HH-60, E2-D and S-3B, delayed A-6E. UH60 is used for model quality purposes. Switch it out to low poly HH60 if it bothers you. Deck is deliberately left clear for use with RedKites Carrier Deck scripts, but you can add your own statics if you wish.",
-      "tags": [
-        "contains-triggers",
-        "aircraft-carrier",
-        "modern-day",
-        "navy"
-      ],
-      "likes": 1,
-      "groups": 6,
-      "statics": 6,
-      "zones": 1,
-      "drawings": 2,
-      "airbases": 0,
-      "required_modules": [],
-      "place_at_origin": false,
-      "sha256": "be19c59216c5b4e9c8854df349f4e097d9e6027a74d821feb7a1632783197544",
-      "path": "prefabs/carrier-blank-csg-73.prefab"
     },
     {
       "name": "Carrier - Blank CSG 75",
