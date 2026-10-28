@@ -1,0 +1,15 @@
+{
+  "author": "Shuffle",
+  "description": "Carrier Strike Group with CVN 75, 2x Burkes, 1x Tico, 1x Perry, 1x Tilde Logistics. On deck and launching are CSAR HH-60, E2-D and S-3B, delayed A-6E. UH60 is used for model quality purposes. Switch it out to low poly HH60 if it bothers you. Deck is deliberately left clear for use with RedKites Carrier Deck scripts, but you can add your own statics if you wish. [r1] Updated advanced options for flyby aircraft, Adjusted orbiting altitude of tankers [r2] Updated formation to be slightly more realistic, whilst still being simple for DCS Changed supporting vessels to match actual deployments from the 90s and 00s where possible per DCS limits 3x Burkes, 1x Ticonderoga, 3x Perry, 1x Fast Combat Support Ship (Tilde Class) Supporting vessels have unique pennant numbers Air launches are tweaked again to fix some issues that were still present. Aircraft will now start from the parking positions and move to the catapult, in multiplayer this allows for more users to see the take off and adds immersion. ROE and AA restricted for the fly by formation Carrier will change course after ~1hr to bring the landing zone into the wind. Launch into the wind, now recover back into the wind.",
+  "images": [
+    "1564805222373531658/1.jpg"
+  ],
+  "tags": [
+    "contains-triggers",
+    "aircraft-carrier",
+    "modern-day",
+    "navy"
+  ],
+  "thread_id": 1564805222373531658,
+  "source_filename": "Carrier_-_Blank_CSG_75.prefab"
+}
